@@ -1,0 +1,40 @@
+@media screen and (max-width:700px){
+    header .container{
+        display: flex;
+        flex-direction: column;
+         
+        }
+        header nav a{
+
+            margin-inline-end: auto;                    
+        
+        } 
+        
+        
+header .logo{
+    margin-left: 0px;
+
+}
+
+
+        .botao{
+            margin-top: 5px;
+            width: 300px;            
+        }
+}
+
+@media screen and (min-width: 1000px){
+    .title{
+        width: 50%;
+    }
+    
+}
+
+@media screen and (max-width:700px){
+    footer .container{
+        display: flex;
+        flex-direction: column;
+        }
+
+        
+}
